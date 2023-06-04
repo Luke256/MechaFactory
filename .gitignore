@@ -7,6 +7,7 @@ App/Screenshot/*
 App/icon.icon
 App/*.exe
 App/Resource*
+App/data/saves/*
 .editorconfig
 Mekanism.vcxproj.filters
 Mekanism.vcxproj

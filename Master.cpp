@@ -512,11 +512,6 @@ void Master::initCell(Point pos)
 /**/
 bool Master::Save(String saveName)
 {
-	if (saveName != U"__autosave__")
-	{
-		m_saveName = saveName;
-	}
-
 	const FilePath fileName = U"data/saves/" + saveName + U".mkn";
 
 	Serializer<BinaryWriter> writer{ fileName };

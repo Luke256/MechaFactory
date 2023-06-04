@@ -6,7 +6,7 @@ camera(Vec2{ 0,0 }, 1.0, CameraControl::None_),
 showElRange(false),
 BuildModal(false),
 updateCellAbort(false),
-autoSaveInterval(0),
+autoSaveInterval(60),
 GetStarted(10s, 10s, 1)
 {
 	Scene::SetBackground(Palette::DefaultBackground);
@@ -20,6 +20,14 @@ GetStarted(10s, 10s, 1)
 	GameRegion = RectF{ Vec2{0, 0}, getData().master->m_cells.size() * Vec2 { 58, 50 } }.stretched(20, 20, 20, 20);
 
 	RocketPolygon = std::make_shared<Array<Polygon>>(calcRocketPolygon());
+
+	int32 count = 0;
+	while (FileSystem::Exists(U"data/saves/名もなき世界{}.mkn"_fmt(count ? U"{}"_fmt(count) : U"")))
+	{
+		++count;
+	}
+
+	getData().master->m_saveName = U"名もなき世界{}"_fmt(count ? U"{}"_fmt(count) : U"");
 }
 
 Game::~Game()
@@ -40,18 +48,18 @@ void Game::update()
 	autoSaveInterval -= Scene::DeltaTime();
 	if (autoSaveInterval <= 0)
 	{
-		getData().master->Save(U"__autosave__");
+		getData().master->Save(getData().master->m_saveName);
 		autoSaveInterval = 60;
 	}
 
 	if (KeyF10.down())
 	{
-		getData().master->Save(U"__autosave__");
+		getData().master->Save(getData().master->m_saveName);
 	}
 
 	if (KeyF11.down())
 	{
-		getData().master->Load(U"__autosave__");
+		getData().master->Load(getData().master->m_saveName);
 		Point spawn = getData().master->getSpawn();
 		Vec2 target = Vec2{ spawn.x * 58.0 + 29 * (spawn.y % 2), spawn.x * 50.0 };
 		camera.setTargetCenter(target);
