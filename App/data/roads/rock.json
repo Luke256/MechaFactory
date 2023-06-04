@@ -1,0 +1,12 @@
+{
+    "id": "rock",
+    "name": "石の道",
+    "speed": 15,
+    "color": "(150, 150, 150)",
+    "requirement": [
+        {
+            "id": "nrRock",
+            "amount": 1
+        }
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "name": "草原",
+    "id": "trLand",
+    "color": "(86, 194, 103)",
+    "isSea": false,
+    "production": "none",
+    "border": 0.45,
+    "depth": 0,
+    "chance": 1
+}

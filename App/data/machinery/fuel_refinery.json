@@ -1,0 +1,30 @@
+{
+    "name": "精製所",
+    "description": "ロケットの燃料を作ります",
+    "id": "FuelRefinery",
+    "recipe": [
+        {
+            "input": [
+                { "id": "nrRock", "amount": 50 },
+                { "id": "nrCoal", "amount": 20 }
+            ],
+            "output": [
+                { "id": "RocketFuel", "amount": 1 }
+            ]
+        }
+    ],
+    "texture": "(0, 2)",
+    "requirement": [
+        { "id": "Steel", "amount": 20 },
+        { "id": "Alloy", "amount": 5 },
+        { "id": "nrRock", "amount": 50 }
+    ],
+    "build": [
+        "trLand"
+    ],
+    "electory": -50,
+    "seaside": false,
+    "range": 0,
+    "rate": 0.01,
+    "tier": 6
+}

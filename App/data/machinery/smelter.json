@@ -1,0 +1,57 @@
+{
+    "name": "製錬所",
+    "description": "石炭を使って各種鉱石を製錬します",
+    "id": "Smelter",
+    "recipe": [
+        {
+            "input": [
+                { "id": "nrIron", "amount": 1 },
+                { "id": "nrCoal", "amount": 1 }
+            ],
+            "output": [
+                { "id": "Iron", "amount": 1 }
+            ]
+        },
+        {
+            "input": [
+                { "id": "nrCopper", "amount": 1 },
+                { "id": "nrCoal", "amount": 2 }
+            ],
+            "output": [
+                { "id": "Copper", "amount": 1 }
+            ]
+        },
+        {
+            "input": [
+                { "id": "nrBauxite", "amount": 1 },
+                { "id": "nrCoal", "amount": 3 }
+            ],
+            "output": [
+                { "id": "Aluminium", "amount": 1 }
+            ]
+        },
+        {
+            "input": [
+                { "id": "nrDiamond", "amount": 1 },
+                { "id": "nrCoal", "amount": 5 }
+            ],
+            "output": [
+                { "id": "Diamond", "amount": 1 }
+            ]
+        }
+    ],
+    "texture": "(1, 1)",
+    "requirement": [
+        { "id": "nrRock", "amount": 15 },
+        { "id": "nrWood", "amount": 5 },
+        { "id": "Plywood", "amount": 10 }
+    ],
+    "build": [
+        "trLand"
+    ],
+    "electory": -15,
+    "seaside": false,
+    "range": 0,
+    "rate": 0.01,
+    "tier": 2
+}

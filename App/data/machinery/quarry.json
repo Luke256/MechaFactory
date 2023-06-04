@@ -1,0 +1,36 @@
+{
+    "name": "採掘場",
+    "description": "岩場や鉱脈などから資源を採掘します",
+    "id": "Quarry",
+    "recipe": [
+        {
+            "input": [],
+            "output": [
+                {
+                    "id": "__production",
+                    "amount": 1
+                }
+            ]
+        }
+    ],
+    "texture": "(0, 1)",
+    "requirement": [
+        {
+            "id": "Plywood",
+            "amount": 20
+        }
+    ],
+    "build": [
+        "trRock",
+        "trCoal",
+        "trIron",
+        "trCopper",
+        "trBauxite",
+        "trDiamond"
+    ],
+    "electory": -10,
+    "seaside": false,
+    "range": 0,
+    "rate": 0.01,
+    "tier": 1
+}

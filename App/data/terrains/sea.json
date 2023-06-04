@@ -1,0 +1,10 @@
+{
+    "name": "海",
+    "id": "trSea",
+    "color": "(86, 123, 194)",
+    "isSea": true,
+    "production": "none",
+    "border": 0,
+    "depth": 0,
+    "chance": 1
+}

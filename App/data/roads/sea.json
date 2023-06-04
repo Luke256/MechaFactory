@@ -1,0 +1,7 @@
+{
+    "id": "sea",
+    "name": "sea",
+    "speed": 3,
+    "color": "(100, 100, 200)",
+    "requirement": []
+}

@@ -1,0 +1,12 @@
+{
+    "id": "tube",
+    "name": "運送チューブ",
+    "speed": 25,
+    "color": "(98, 161, 244)",
+    "requirement": [
+        {
+            "id": "Diamond",
+            "amount": 2
+        }
+    ]
+}

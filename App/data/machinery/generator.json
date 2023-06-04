@@ -1,0 +1,36 @@
+{
+    "name": "発電機",
+    "description": "石炭を使って電気を供給します",
+    "id": "Generator",
+    "recipe": [
+        {
+            "input": [
+                {
+                    "id": "nrCoal",
+                    "amount": 1
+                }
+            ],
+            "output": [
+                {
+                    "id": "none",
+                    "amount": 0
+                }
+            ]
+        }
+    ],
+    "texture": "(0, 0)",
+    "requirement": [
+        {
+            "id": "nrRock",
+            "amount": 10
+        }
+    ],
+    "build": [
+        "trLand"
+    ],
+    "electory": 100,
+    "seaside": true,
+    "range": 5,
+    "rate": 0.001,
+    "tier": 0
+}

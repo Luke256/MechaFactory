@@ -1,0 +1,30 @@
+{
+    "name": "鉄精錬所",
+    "description": "鉄と石炭から鋼を作ります",
+    "id": "IronRefinery",
+    "recipe": [
+        {
+            "input": [
+                { "id": "Iron", "amount": 1 },
+                { "id": "nrCoal", "amount": 1 }
+            ],
+            "output": [
+                { "id": "Steel", "amount": 1 }
+            ]
+        }
+    ],
+    "texture": "(2, 1)",
+    "requirement": [
+        { "id": "Iron", "amount": 20 },
+        { "id": "Copper", "amount": 10 },
+        { "id": "nrRock", "amount": 50 }
+    ],
+    "build": [
+        "trLand"
+    ],
+    "electory": -20,
+    "seaside": false,
+    "range": 0,
+    "rate": 0.01,
+    "tier": 3
+}

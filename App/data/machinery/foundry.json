@@ -1,0 +1,31 @@
+{
+    "name": "鋳造所",
+    "description": "複数の金属から合金を作ります",
+    "id": "Foundry",
+    "recipe": [
+        {
+            "input": [
+                { "id": "Aluminium", "amount": 2 },
+                { "id": "Copper", "amount": 1 }
+            ],
+            "output": [
+                { "id": "Alloy", "amount": 1 }
+            ]
+        }
+    ],
+    "texture": "(3, 1)",
+    "requirement": [
+        { "id": "Steel", "amount": 20 },
+        { "id": "Aluminium", "amount": 20 },
+        { "id": "nrRock", "amount": 20 },
+        { "id": "Plywood", "amount": 20 }
+    ],
+    "build": [
+        "trLand"
+    ],
+    "electory": -30,
+    "seaside": false,
+    "range": 0,
+    "rate": 0.01,
+    "tier": 5
+}

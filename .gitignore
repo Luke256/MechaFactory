@@ -1,0 +1,13 @@
+App/_Release/*
+App/AS_DEBUG/*
+App/dll/*
+App/engine/*
+App/example/*
+App/Screenshot/*
+App/icon.icon
+App/*.exe
+App/Resource*
+.editorconfig
+Mekanism.vcxproj.filters
+Mekanism.vcxproj
+Mekanism.vcxproj.user

@@ -1,0 +1,19 @@
+{
+    "name": "貨物港",
+    "description": "海を経由して他の貨物港にアイテムを運びます",
+    "id": "Port",
+    "recipe": [],
+    "texture": "(3, 2)",
+    "requirement": [
+        { "id": "nrWood", "amount": 10 },
+        { "id": "nrRock", "amount": 10 }
+    ],
+    "build": [
+        "trLand"
+    ],
+    "electory": 0,
+    "seaside": true,
+    "range": 0,
+    "rate": 0.005,
+    "tier": 0
+}

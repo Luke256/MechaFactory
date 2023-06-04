@@ -1,0 +1,42 @@
+{
+    "name": "作業場",
+    "description": "木材を合板に加工します",
+    "id": "Workshop",
+    "recipe": [
+        {
+            "input": [
+                {
+                    "id": "nrWood",
+                    "amount": 1
+                }
+            ],
+            "output": [
+                {
+                    "id": "Plywood",
+                    "amount": 1
+                }
+            ]
+        }
+    ],
+    "texture": "(3, 0)",
+    "requirement": [
+        {
+            "id": "nrWood",
+            "amount": 10
+        }
+    ],
+    "build": [
+        "trLand",
+        "trRock",
+        "trCoal",
+        "trIron",
+        "trCopper",
+        "trBauxite",
+        "trDiamond"
+    ],
+    "electory": -10,
+    "seaside": false,
+    "range": 0,
+    "rate": 0.01,
+    "tier": 2
+}

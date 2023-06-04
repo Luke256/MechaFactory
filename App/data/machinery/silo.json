@@ -1,0 +1,34 @@
+{
+    "name": "サイロ",
+    "description": "ロケットを製造、発射します",
+    "id": "Silo",
+    "recipe": [
+        {
+            "input": [
+                { "id": "Alloy", "amount": 100 },
+                { "id": "Steel", "amount": 100 },
+                { "id": "Plywood", "amount": 100 },
+                { "id": "E_Circuit", "amount": 100 },
+                { "id": "RocketFuel", "amount": 100 },
+                { "id": "Diamond", "amount": 20 }
+            ],
+            "output": [
+                { "id": "Rocket", "amount": 1 }
+            ]
+        }
+    ],
+    "texture": "(2, 2)",
+    "requirement": [
+        { "id": "Steel", "amount": 100 },
+        { "id": "Alloy", "amount": 100 },
+        { "id": "Plywood", "amount": 50 }
+    ],
+    "build": [
+        "trLand"
+    ],
+    "electory": -200,
+    "seaside": false,
+    "range": 0,
+    "rate": 0.005,
+    "tier": 7
+}

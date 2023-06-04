@@ -1,0 +1,32 @@
+{
+    "name": "電子工場",
+    "description": "鋼と合金から電子回路を製造します",
+    "id": "E_Factory",
+    "recipe": [
+        {
+            "input": [
+                { "id": "Alloy", "amount": 5 },
+                { "id": "Steel", "amount": 5 },
+                { "id": "Diamond", "amount": 1 }
+            ],
+            "output": [
+                { "id": "E_Circuit", "amount": 1 }
+            ]
+        }
+    ],
+    "texture": "(1, 2)",
+    "requirement": [
+        { "id": "Steel", "amount": 50 },
+        { "id": "Aluminium", "amount": 50 },
+        { "id": "Alloy", "amount": 50 },
+        { "id": "Plywood", "amount": 100 }
+    ],
+    "build": [
+        "trLand"
+    ],
+    "electory": -50,
+    "seaside": false,
+    "range": 0,
+    "rate": 0.01,
+    "tier": 6
+}

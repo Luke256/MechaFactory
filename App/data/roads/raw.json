@@ -1,0 +1,12 @@
+{
+    "id": "raw",
+    "name": "砂利道",
+    "speed": 7,
+    "color": "(255, 249, 198)",
+    "requirement": [
+        {
+            "id": "nrWood",
+            "amount": 1
+        }
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "name": "鉄鉱脈",
+    "id": "trIron",
+    "color": "(192, 194, 86)",
+    "isSea": false,
+    "production": "nrIron",
+    "border": 0.6,
+    "depth": 5,
+    "chance": 0.03
+}

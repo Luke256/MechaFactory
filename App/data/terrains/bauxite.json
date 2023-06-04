@@ -1,0 +1,10 @@
+{
+    "name": "ボーキサイト鉱脈",
+    "id": "trBauxite",
+    "color": "(192, 86, 194)",
+    "isSea": false,
+    "production": "nrBauxite",
+    "border": 0.6,
+    "depth": 4,
+    "chance": 0.017
+}

@@ -1,0 +1,31 @@
+{
+    "name": "電柱",
+    "description": "電力供給範囲を延長します", 
+    "id": "Pole",
+    "recipe": [],
+    "texture": "(1, 0)",
+    "requirement": [
+        {
+            "id": "nrWood",
+            "amount": 2
+        },
+        {
+            "id": "nrRock",
+            "amount": 2
+        }
+    ],
+    "build": [
+        "trLand",
+        "trRock",
+        "trCoal",
+        "trIron",
+        "trCopper",
+        "trBauxite",
+        "trDiamond"
+    ],
+    "electory": 0,
+    "seaside": false,
+    "range": 4,
+    "rate": 0,
+    "tier": 0
+}

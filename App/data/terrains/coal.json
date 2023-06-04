@@ -1,0 +1,10 @@
+{
+    "name": "石炭",
+    "id": "trCoal",
+    "color": "(67, 61, 55)",
+    "isSea": false,
+    "production": "nrCoal",
+    "border": 0.62,
+    "depth": 6,
+    "chance": 0.05
+}

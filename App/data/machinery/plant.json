@@ -1,0 +1,26 @@
+{
+    "name": "植林場",
+    "description": "木材を供給します",
+    "id": "Plant",
+    "recipe": [
+        {
+            "input": [],
+            "output": [
+                {
+                    "id": "nrWood",
+                    "amount": 1
+                }
+            ]
+        }
+    ],
+    "texture": "(2, 0)",
+    "requirement": [],
+    "build": [
+        "trLand"
+    ],
+    "electory": -10,
+    "seaside": false,
+    "range": 0,
+    "rate": 0.01,
+    "tier": 1
+}

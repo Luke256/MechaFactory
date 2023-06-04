@@ -1,0 +1,10 @@
+{
+    "name": "岩場",
+    "id": "trRock",
+    "color": "(150, 150, 150)",
+    "isSea": false,
+    "production": "nrRock",
+    "border": 0.6,
+    "depth": 0,
+    "chance": 1
+}
